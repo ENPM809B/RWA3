@@ -1,7 +1,7 @@
 # Competition configuration options
 options:
   insert_models_over_bins: true
-  belt_population_cycles: 2
+  belt_population_cycles: 3
 
 
 orders:

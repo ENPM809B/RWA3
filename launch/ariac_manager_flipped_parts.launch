@@ -23,11 +23,11 @@
           $(arg gui_args)
           $(arg fill_demo_shipment_args)
           --visualize-sensor-views
-          -f $(find group2_rwa2)/config/my_sample.yaml
-          $(find group2_rwa2)/config/my_sample_sensors.yaml
+          -f $(find osrf_gear)/config/sample_flipped.yaml
+          $(find ariac_manager)/config/my_sample_sensors.yaml
           " required="true" output="screen" />
 </launch>
 
 
-<!--		$(find group2_rwa2)/config/my_sample_sensors.yaml-->
+<!--		$(find ariac_manager)/config/my_sample_sensors.yaml-->
 <!--		$(find osrf_gear)/config/sample_user_config.yaml-->
